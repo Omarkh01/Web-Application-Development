@@ -1,0 +1,178 @@
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	width: 800px;
+	margin: 0 auto;
+	border: 3px solid #931420;
+	background-color: #fffded;
+}
+
+/* the styles for the header */
+header {
+	border-bottom: 3px solid #931420;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	background: linear-gradient(30deg, #f6bb73 0%, white 35%, white 50%, white 75%, #f6bb73 100%); 
+}
+header img {
+	float: left;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+header h2 {
+	font-size: 170%;
+	color: #800000;
+}
+header h3{
+	font-size: 130%;
+	font-style: italic;	
+}
+
+.shadow {
+	text-shadow: 2px 2px #800000;
+}	
+
+/* Navigation */
+#nav_menu {
+	position: relative;
+}
+
+#nav_menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#nav_menu ul li{
+	float: left;
+}
+
+#nav_menu ul li a{
+	text-decoration: none;
+	display: block;
+	width: 160px;
+	text-align: center;
+	padding: 1em 0;
+	background-color: #800000;
+	color: white;
+}
+
+#nav_menu ul li ul{
+	display: none;
+	position: absolute;	
+}
+
+#nav_menu ul li ul li {
+	float: none;
+	display: inline;
+}
+
+#nav_menu ul li:hover ul {
+	display: block;
+}
+
+#nav_menu ul::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+/* the styles for the section */
+main {
+	clear: left;
+}
+
+h1{
+	font-size: 150%;
+	padding-top: 0.5em;
+	padding-bottom: 0.25em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+article {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	border-top: solid 2px;
+	border-bottom: solid 2px;
+	border-color: #800000;
+}
+article p {
+	margin: 0;
+}
+article img {
+	float: right;
+	margin: 10px;
+	border: 1px solid black;
+}
+article h3 {
+	font-size: 105%;
+	padding-bottom: 0.25em;
+}
+
+section {
+	width: 525px;
+	float: right;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+section h1 {
+	font-size: 130%;
+	color: #800000;
+	padding-top: 0.5em;
+	padding-bottom: 0.25em;
+}
+section p {
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+}
+article h2{
+	padding-top: 0;
+	margin: 0;
+}
+
+aside {
+	width: 215px;
+	float: right;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+aside h2 {
+	font-size: 130%;
+	color: #800000;
+	padding-top: 0.5em;
+	padding-bottom: 0.25em;
+}
+aside img{
+	padding-bottom: 1em;
+}
+
+blockquote {
+	padding-right: 2em;
+	padding-left: 2em;
+	font-style: italic;
+}
+ul {
+	padding-bottom: 0.25em;
+	padding-left: 1.25em;
+}
+li {
+	padding-bottom: 0.35em;
+}
+a:hover{	
+	font-style: italic;
+}
+
+/* the styles for the footer */
+footer {
+	background-color: #931420;
+	clear: both;
+}
+footer p {
+	text-align: center;
+	color: white;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
