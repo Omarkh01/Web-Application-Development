@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap">
+
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <link rel="stylesheet" href="styles/signup.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+    <script src="https://kit.fontawesome.com/e25869ae85.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="js/jquery.slicknav.js" type="text/javascript"></script>
+
+
+
+</head>
+
+<body>
+    <!-- Here goes the search engine -->
+    <header id="header">
+        <nav class="mainNav--1ouK">
+            <a href="" class="logo">mirrorxs</a>
+            <div id="mobile_menu"></div>
+            <div id="menu-2" align="right"></div>
+
+            <div class="links-container">
+                <a href="#">Photos</a>
+                <a href="#">Illustrations</a>
+                <a href="#">Vectors</a>
+                <a href="#">Videos</a>
+                <a href="#">Music</a>
+                <a href="#">Sound Effects</a>
+            </div>
+
+            <div class="mini-links-container"><a href="">Photos</a>
+                <ul id="lists-9JrT">
+                    <li><a href="#" id="photos_elmnt">Photos</a></li>
+                    <li><a href="#">Illustrations</a></li>
+                    <li><a href="#">Vectors</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Music</a></li>
+                    <li><a href="#">Sound Effects</a></li>
+                </ul>
+            </div>
+
+            <div class="actions-123">
+                <ul class="list-of-actions">
+                    <li><a class="#" href="">Explore</a></li>
+                    <li><a class="login-popup-link">Log in</a></li>
+                    <li><button class="" type="button" id="upload-btn"><span
+                                class="material-symbols-outlined btn-icon">download</span>Upload</button></li>
+                </ul>
+            </div>
+
+            <main class="wrapper">
+                <section class="title-text">
+                    <div class="title login">Login</div>
+                    <div class="title signup">SignUp</div>
+                </section>
+                <div class="close-btn">&times;</div>
+                <section class="form-container">
+                    <div class="slide-controls">
+                        <input type="radio" name="slide" id="login" checked>
+                        <input type="radio" name="slide" id="signup">
+                        <label for="login" class="slide login">Login</label>
+                        <label for="signup" class="slide signup">Signup</label>
+                        <div class="slider-tab"></div>
+                    </div>
+                    <div class="form-inner">
+                        <form action="#" class="login">
+                            <div class="field">
+                                <input type="text" placeholder="Email Address" required>
+                            </div>
+                            <div class="field">
+                                <input type="password" placeholder="Password" required>
+                            </div>
+                            <div class="pass-link"><a href="#">Forgot password?</a></div>
+                            <div class="field btn">
+                                <div class="btn-layer"></div>
+                                <input type="submit" value="Login">
+                            </div>
+                            <div class="signup-link">Not a member?<a href="#"> Signup now</a></div>
+                        </form>
+
+                        <form action="#" class="signup">
+                            <div class="field">
+                                <input type="text" placeholder="Email Address" required>
+                            </div>
+                            <div class="field">
+                                <input type="password" placeholder="Password" required>
+                            </div>
+                            <div class="field">
+                                <input type="password" placeholder="Confirm password" required>
+                            </div>
+                            <div class="field btn">
+                                <div class="btn-layer"></div>
+                                <input type="submit" value="Sign up">
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            </main>
+
+        </nav>
+    </header>
+
+    <div class="container-234">
+        <div id="hero--background">
+            <img src="photos/back-g.jpg" id="back-img">
+        </div>
+        <div id="form-container">
+            <h1 id="home-text">See The World From Different Angle</h1>
+            <form id="search-form">
+                <button id="search-btn" type=""><span
+                        class="material-symbols-outlined search-icon">search</span></button>
+                <input type="text" placeholder="Search.." id="search-box" onkeyup="search_photo()">
+            </form>
+            <div class="suggestions">Popular searches: animal, mountain, lake, sun</div>
+        </div>
+    </div>
+
+    <main class="main-container">
+        <section class="images-section">
+            <div class="images-container">
+                <img class="photo" src="photos/alberta-gb39698837_1920.jpg" data-title="lake">
+                <img class="photo" src="photos/avenue-g5ab697eac_1920.jpg" data-title="woods">
+                <img class="photo" src="photos/back-g.jpg" data-title="mountain">
+                <img class="photo" src="photos/deer-g04ae0928d_1920.jpg" data-title="animal">
+                <img class="photo" src="photos/pexels-senuscape-1658967.jpg" data-title="train">
+                <img class="photo" src="photos/tree-gfcde5c075_1280.jpg" data-title="sun">
+            </div>
+            <div class="images-container">
+                <img class="photo" src="photos/pexels-trace-hudson-2365457.jpg" data-title="mountain">
+                <img class="photo" src="photos/mountains-g3b5ca27ce_1920.jpg" data-title="lake">
+                <img class="photo" src="photos/road-gf734a0ad6_1920.jpg" data-title="forest">
+                <img class="photo" src="photos/lake-g71d2b478c_1920.jpg" data-title="lake">
+                <img class="photo" src="photos/mountains-g3a2b136d6_1280.jpg" data-title="sky">
+                <img class="photo" src="photos/hills-g785baa11f_1920.jpg" data-title="mountain, forest, sky">
+            </div>
+            <div class="images-container">
+                <img class="photo" src="photos/field-g7712959e3_1920.jpg" data-title="mountain">
+                <img class="photo" src="photos/garden-g2556f0b5e_1920.jpg" data-title="mountain">
+                <img class="photo" src="photos/field-g7712959e3_1920.jpg" data-title="mountain">
+                <img class="photo" src="photos/pexels-quang-nguyen-vinh-2175952.jpg" data-title="mountain">
+                <img class="photo" src="photos/tree-g85c84628e_1920.jpg" data-title="mountain">
+                <img class="photo" src="photos/tree-g12fb6c565_1920.jpg" data-title="mountain">
+            </div>
+        </section>
+
+        <div class="more-btn--container">
+            <button id="more-btn">More</button>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="info-col">
+            <ul class="column-list">
+                <li id="highlight-txt">About Us</li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Cookie Policy</a></li>
+            </ul>
+        </div>
+        <div class="community-col">
+            <ul class="column-list">
+                <li id="highlight-txt">Community</li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Forum</a></li>
+                <li><a href="#">Artist</a></li>
+                <li><a href="#">Cameras</a></li>
+            </ul>
+        </div>
+        <div class="contact-col">
+            <div class="div--23OpEf">
+                <p class="contact-txt">Contact</p>
+                <div class="icon-container">
+                    <i class="fa-brands fa-instagram fa-2xl"></i>
+                    <i class="fa-brands fa-facebook fa-2xl"></i>
+                    <i class="fa-brands fa-twitter fa-2xl"></i>
+                    <i class="fa-brands fa-pinterest fa-2xl"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector(".login-popup-link").addEventListener("click", () => {
+            document.querySelector(".wrapper").classList.add("active");
+            document.body.classList.add("stop-scrolling");
+        });
+        document.querySelector(".wrapper .close-btn").addEventListener("click", () => {
+            document.querySelector(".wrapper").classList.remove("active");
+            document.body.classList.remove("stop-scrolling");
+        });
+
+        const loginText = document.querySelector(".title-text .login");
+        const loginForm = document.querySelector("form.login");
+        const loginBtn = document.querySelector("label.login");
+        const signupBtn = document.querySelector("label.signup");
+        const signupLink = document.querySelector("form .signup-link a");
+        signupBtn.onclick = (() => {
+            loginForm.style.marginLeft = "-50%";
+            // loginText.style.marginLeft = "-50%";
+        });
+        loginBtn.onclick = (() => {
+            loginForm.style.marginLeft = "0%";
+            loginText.style.marginLeft = "0%";
+        });
+        signupLink.onclick = (() => {
+            signupBtn.click();
+            return false;
+        });
+
+        $(document).ready(function () {
+            $('#lists-9JrT').slicknav({ prependTo: "#mobile_menu" });
+        });
+        $(document).ready(function () {
+            $('.list-of-actions').slicknav({ prependTo: "#menu-2" });
+        });
+
+        let searchBox = document.querySelector('#search-box');
+        let images = document.querySelectorAll('.photo');
+        searchBox.oninput = () => {
+            images.forEach(hide => hide.style.display = 'none');
+            let value = searchBox.value;
+            images.forEach(filter => {
+                let title = filter.getAttribute('data-title');
+                if (value == title) {
+                    filter.style.display = 'block';
+                }
+                if (searchBox.value == '') {
+                    filter.style.display = 'block';
+                }
+            });
+        };
+    </script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
